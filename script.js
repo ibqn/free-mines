@@ -1,7 +1,7 @@
 console.log("running");
 
 const BOARD_WIDTH = 9;
-const BOARD_HEIGHT = 6;
+const BOARD_HEIGHT = 9;
 const NUMBER_OF_MINES = 10;
 
 const TILE_STATE = {
@@ -78,16 +78,7 @@ const nearbyTiles = (index) => {
 
       const idx = index + offsetX + offsetY * BOARD_WIDTH;
       const tile = board[idx];
-      // console.log(
-      //   "//tile",
-      //   tile,
-      //   "idx",
-      //   index + offsetX + offsetY * BOARD_HEIGHT,
-      //   "x",
-      //   offsetX,
-      //   "y",
-      //   offsetY
-      // );
+
       if (tile) {
         tiles.push({ ...tile, idx });
       }
