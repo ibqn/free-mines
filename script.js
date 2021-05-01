@@ -106,7 +106,6 @@ const revealTile = (index) => {
 
   tile.state = TILE_STATE.NUMBER;
   const tiles = nearbyTiles(index);
-  // console.log("=tiles", tiles);
   const minesCount = tiles.filter(({ mine }) => mine).length;
   if (minesCount === 0) {
     element.innerText = "";
@@ -166,6 +165,17 @@ const handleRightClick = (event, index) => {
   markTile(index);
 };
 
+const handleDoubleClick = (event, index) => {
+  console.log("double click event", index);
+
+  const tile = board[index];
+  const { state } = tile;
+
+  if (state !== TILE_STATE.NUMBER) {
+    return;
+  }
+};
+
 const boardElement = document.getElementById("board");
 
 boardElement.style.setProperty("--board-width", BOARD_WIDTH);
@@ -179,6 +189,9 @@ board.forEach((tile, index) => {
   element.addEventListener("click", (event) => handleClick(event, index));
   element.addEventListener("contextmenu", (event) =>
     handleRightClick(event, index)
+  );
+  element.addEventListener("dblclick", (event) =>
+    handleDoubleClick(event, index)
   );
   // element.innerText = `${tile.x}-${tile.y}`;
   boardElement.appendChild(element);
