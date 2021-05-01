@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 70.9 70.9" style="enable-background:new 0 0 70.9 70.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;stroke:#000000;stroke-width:0.216;stroke-miterlimit:266.0315;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="Layer_x0020_1">
+	<polygon class="st0" points="6.7,37.3 6.2,35.5 6.7,33.6 33.7,33.6 33.7,6.6 35.5,6.3 37.4,6.6 37.4,33.6 64.4,33.6 64.6,35.5 
+		64.4,37.3 37.4,37.3 37.4,64.3 35.6,64.6 33.7,64.3 33.7,37.3 	"/>
+	<circle class="st0" cx="21" cy="20.7" r="2.9"/>
+	<polygon class="st0" points="17.8,55.6 16.2,54.7 15.3,53.2 33.1,35.5 15.3,17.7 16.4,16.2 17.8,15.3 35.5,33 53.2,15.3 54.8,16.2 
+		55.7,17.7 37.9,35.5 55.7,53.2 54.8,54.8 53.2,55.6 35.5,37.9 	"/>
+	<circle class="st0" cx="35.7" cy="14.9" r="2.9"/>
+	
+		<radialGradient id="SVGID_1_" cx="-105.9027" cy="311.8529" r="0.1546" gradientTransform="matrix(66.5079 0 0 -66.5079 7074.8511 20772.5742)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.1294" style="stop-color:#E5E5E1"/>
+		<stop  offset="0.2902" style="stop-color:#CCC8C8"/>
+		<stop  offset="0.4392" style="stop-color:#B2B4B4"/>
+		<stop  offset="0.749" style="stop-color:#464D43"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</radialGradient>
+	<circle class="st1" cx="35.5" cy="35.1" r="20.1"/>
+	<circle class="st0" cx="49.5" cy="21.5" r="2.9"/>
+	<circle class="st0" cx="21.5" cy="49.4" r="2.9"/>
+	<circle class="st0" cx="49.5" cy="49.4" r="2.9"/>
+	<circle class="st2" cx="32" cy="32.6" r="2.7"/>
+</g>
+</svg>
