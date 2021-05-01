@@ -59,6 +59,38 @@ body {
   background-color: none;
 }
 
+.board > [data-type="1"] {
+  background-image: url(images/type1.svg);
+}
+
+.board > [data-type="2"] {
+  background-image: url(images/type2.svg);
+}
+
+.board > [data-type="3"] {
+  background-image: url(images/type3.svg);
+}
+
+.board > [data-type="4"] {
+  background-image: url(images/type4.svg);
+}
+
+.board > [data-type="5"] {
+  background-image: url(images/type5.svg);
+}
+
+.board > [data-type="6"] {
+  background-image: url(images/type6.svg);
+}
+
+.board > [data-type="7"] {
+  background-image: url(images/type7.svg);
+}
+
+.board > [data-type="8"] {
+  background-image: url(images/type8.svg);
+}
+
 .board > [data-state="marked"] {
   background-color: rgb(246, 174, 45);
   background-image: url(images/flag.svg);

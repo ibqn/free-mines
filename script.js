@@ -33,6 +33,9 @@ const createBoard = (boardWidth, boardHeight) =>
     set state(value) {
       this.element.dataset.state = value;
     },
+    set type(value) {
+      this.element.dataset.type = value;
+    },
   }));
 
 const board = createBoard(BOARD_WIDTH, BOARD_HEIGHT);
@@ -111,7 +114,8 @@ const revealTile = (index) => {
     element.innerText = "";
     tiles.forEach(({ idx }) => revealTile(idx));
   } else {
-    element.innerText = minesCount;
+    // element.innerText = minesCount;
+    tile.type = minesCount;
   }
 };
 
