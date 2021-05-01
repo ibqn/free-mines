@@ -52,6 +52,7 @@ body {
 
 .board > [data-state="mine"] {
   background-color: red;
+  background-image: url(images/mine.svg);
 }
 
 .board > [data-state="number"] {
@@ -59,5 +60,6 @@ body {
 }
 
 .board > [data-state="marked"] {
-  background-color: yellow;
+  background-color: rgb(246, 174, 45);
+  background-image: url(images/flag.svg);
 }
