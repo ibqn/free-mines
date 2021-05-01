@@ -174,6 +174,15 @@ const handleDoubleClick = (event, index) => {
   if (state !== TILE_STATE.NUMBER) {
     return;
   }
+
+  const tiles = nearbyTiles(index);
+  const minesCount = tiles.filter(({ mine }) => mine).length;
+  const markCount = tiles.filter(({ state }) => state === TILE_STATE.MARKED)
+    .length;
+
+  if (minesCount === markCount) {
+    tiles.forEach(({ idx }) => revealTile(idx));
+  }
 };
 
 const boardElement = document.getElementById("board");
