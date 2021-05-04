@@ -34,7 +34,7 @@ const createBoard = (boardWidth, boardHeight) =>
       this.element.dataset.state = value;
     },
     set type(value) {
-      this.element.dataset.type = value;
+      this.element.style.backgroundImage = `url(images/type${value}.svg)`;
     },
   }));
 
@@ -114,7 +114,6 @@ const revealTile = (index) => {
     element.innerText = "";
     tiles.forEach(({ idx }) => revealTile(idx));
   } else {
-    // element.innerText = minesCount;
     tile.type = minesCount;
   }
 };
