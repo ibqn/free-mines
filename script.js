@@ -180,8 +180,9 @@ const handleDoubleClick = (event, index) => {
 
   const tiles = nearbyTiles(index);
   const minesCount = tiles.filter(({ mine }) => mine).length;
-  const markCount = tiles.filter(({ state }) => state === TILE_STATE.MARKED)
-    .length;
+  const markCount = tiles.filter(
+    ({ state }) => state === TILE_STATE.MARKED
+  ).length;
 
   if (minesCount === markCount) {
     tiles.forEach(({ idx }) => revealTile(idx));
